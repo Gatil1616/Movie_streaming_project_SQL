@@ -1,5 +1,27 @@
+............................................................................
 
-                      # Project -2
+🎬 5. Movie Rental / Streaming Database (like Netflix)
+📋 Tables
+
+  Users(user_id, name, email, subscription_type)
+
+Movies(movie_id, title, genre, release_year, rating)
+
+Watch_History(history_id, user_id, movie_id, watch_date)
+
+Subscriptions(sub_id, user_id, start_date, end_date, plan_amount)
+
+💡 Project Tasks
+
+Find the most-watched genre.
+
+List users whose subscription expired.
+
+Find top 5 most active users (based on watch count).
+
+Write a trigger that updates a user’s “active” status when subscription ends.
+
+......................................................................................  
 
 create database prj;
 use prj;
